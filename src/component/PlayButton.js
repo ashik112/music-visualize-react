@@ -7,7 +7,7 @@ class PlayButton extends Component {
 		const className = props.isMusicPlaying ? "play active" : "play";
 		return (
 			<a
-				onClick={this.onClick}
+				onClick={props.onClick}
 				title="Play video"
 				className={className}
 			/>
